@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header class="menu-bg">
+        <div class="menu">
+            <div class="menu-logo">
+                <img src="logo.svg" alt="logo meditação para viver"/>
+            </div>
+            <div class="menu-nav">
+                <ul>
+                    <li><a href="#cursos">CURSOS</a></li>
+                    <li><a href="#app">BAIXE O APP</a></li>
+                    <li><a href="#contato">CONTATO</a></li>
+                </ul>
+            </div>    
+        </div>
+    </header>
+<div class="container">
+    <div class="promocao">
+        <h1>black</h1>
+        <img src="icone-meditacao.svg" alt="icone meditação">
+        <h1>friday</h1>
+    </div>
+    <div class="anuncio">
+        <h3>Sua carteira vai levitar com nossos descontos de até<span>50%</span></h3>
+        <h2>TEMPO RESTANTE</h2>
+    </div>
+    <div class="timer">
+        <div class="countdown">
+            <div>
+                <h2 id ="dias">00</h2>
+                <p>DIAS</p>
+            </div>
+            <div>
+                <h2 id="horas">00</h2>
+                <p>HORAS</p>
+            </div>
+            <div>
+                <h2 id="minutos">00</h2>
+                <p>MINUTOS</p>
+            </div>
+            <div>
+                <h2 id="segundos">00</h2>
+                <p>SEGUNDOS</p>
+            </div>
+        </div>
+    </div>
+    <div class= "formulario">
+        <div>
+            <h3><span>cadastre seu e-mail</span> e receba todas as ofertas da black friday</h3>
+        </div>
+        <div class="button">
+            <div class="action">
+                <form method="POST" action=".dados.php">
+                    <input type="email" id="email" name="email" placeholder="Digite seu e-mail" required>
+            </div>
+            <div class="cadastrar">                
+                    <input type ="button" id="enviar" value="Cadastrar">
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="redes">
+        <p>visite nossas redes sociais</p>
+        <div class="icones">
+            <a href="https://www.facebook.com/" target="_blank"><img src="facebook.svg" alt="facebook"></a>
+            <a href="https://www.instagram.com/" target="_blank"><img src="instagram.svg" alt="instagram"></a>
+            <a href="https://twitter.com/" target="_blank"><img src="twiter.svg" alt="twiter"></a>
+        </div>
+    </div>
+    <div class="footer">
+        <footer>Alguns direitos reservados - Cléo Silva - Hiring Coders - 2021</footer>
+    </div>
+</div>
+<script src="script.js"></script>  
+</body>
+</html>
