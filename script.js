@@ -43,3 +43,7 @@ const tempoRestante = () => {
 }
 
 contagemRegressiva(tempoRestante());
+
+function alerta() {
+    alert("Cadastro efetuado com sucesso!");
+}
