@@ -7,3 +7,6 @@ Primeiro foi criado um layout no figma para visualizar como o projeto ficaria e 
 
 ![layout-landingPage](https://user-images.githubusercontent.com/82469705/125633967-fb5d7118-9a1d-4f96-af81-ba5db4701fa1.jpg)
 
+![image](https://user-images.githubusercontent.com/82469705/125634442-ed227737-0221-4034-9ec7-cd4abfadf92d.png)
+
+
