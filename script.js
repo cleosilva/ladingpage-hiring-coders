@@ -1,5 +1,5 @@
 'use strict';
-
+// Cronômetro Reverso
 const formatarDigito = (digito) => `0${digito}`.slice(-2);
 const formatarDigitoDias = (digito) => `0${digito}`.slice(-3);
 
@@ -44,6 +44,19 @@ const tempoRestante = () => {
 
 contagemRegressiva(tempoRestante());
 
+// Mensagem de alerta
 function alerta() {
     alert("Cadastro efetuado com sucesso!");
 }
+
+// função LocalStorage
+
+if(localStorage.email) {
+    document.getElementById('email').value = localStorage.email;
+}
+var salvarEmail = function () {
+    var email = document.getElementById('email').value;
+    localStorage.setItem('email', email);
+};
+
+document.onchange = salvarEmail;
