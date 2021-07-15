@@ -44,10 +44,6 @@ const tempoRestante = () => {
 
 contagemRegressiva(tempoRestante());
 
-// Mensagem de alerta
-function alerta() {
-    alert("Cadastro efetuado com sucesso!");
-}
 
 // função LocalStorage
 
